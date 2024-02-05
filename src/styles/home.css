@@ -1,0 +1,24 @@
+.list__title {
+    color: red;
+}
+
+.list__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: auto;
+    flex: row;
+    gap: 1rem;
+}
+
+.person__container {
+    min-width: 14rem;
+    padding: 1.5rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.person__properties-list {
+    list-style: none;
+    padding-inline-start: 0;
+}
